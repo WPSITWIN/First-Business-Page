@@ -4,6 +4,38 @@ body {
     font-family: Roboto, monospace, sans-serif;
 }
 
+.header {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0px;
+
+}
+
+.two {
+    background-color: #1f2937;
+    margin: 0px;
+}
 .logo {
-   
+   margin-left: 10px;
+}
+
+.right-links {
+    display: flex;
+
+}
+li, a, ul {
+    display: flex;
+    color: #e5e7eb; 
+    text-decoration: none;
+    list-style-type: none;
+
+    gap: 20px;
+
+    
+    margin-right: 10px;
 }
