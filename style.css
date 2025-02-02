@@ -81,6 +81,10 @@ li, a, ul {
 
     background-color: white;
 }
+.section-one {
+    border: none;
+    margin-top: 15px;
+}
 .left-side {
     width: 500px;
 }
@@ -100,7 +104,7 @@ li, a, ul {
 }
 .boxes {
     width: 744px;
-    margin-bottom: 60px; 
+    margin-bottom: 80px; 
     display: flex;
     
     gap: 25px;
@@ -140,6 +144,8 @@ li, a, ul {
     display: flex;
     flex-direction: column;
 
+    margin: 100px;
+
 }
 .quote {
     display: flex;
@@ -147,10 +153,8 @@ li, a, ul {
 
     color: #1f2937;
 
-    width: 900px;
+    width: 860px;
     min-height: fit-content;
-    margin: 100px;
-    margin-bottom: 0px; 
 
     font-size: 36px;
     font-style: italic;
@@ -163,8 +167,7 @@ li, a, ul {
     font-weight: 900;
 
     align-self: flex-end;
-    margin-top: 10px;
-    margin-bottom: 100px;
+    padding-right: 30px;
 }
 .five {
     height: 320px;
@@ -198,8 +201,11 @@ li, a, ul {
 }
 .calling {
     font-weight: 900;
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 5px;
+}
+.calling-text {
+    font-size: 22px;
 }
 button {
     background-color: #3882F6;
@@ -214,7 +220,8 @@ button {
     cursor: pointer;
 }
 .button-text {
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 900;
 }
 
 .six {
