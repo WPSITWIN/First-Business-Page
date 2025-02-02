@@ -1,5 +1,4 @@
 /* Index page styles sheet */
-
 body {
     font-family: Roboto, monospace, sans-serif;
 }
@@ -24,21 +23,9 @@ h2 {
     justify-content: space-between;
 
 }
-.two {
-    background-color: #1f2937;
-    margin: 0px;
-    padding: 40px;
-    color: #e5e7eb;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    height: fit-content;
-}
 .logo {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 570;
     margin: 18px;
 }
 
@@ -67,7 +54,7 @@ li, a, ul {
 }
 .bold {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 44px;
     font-weight: 900;
 
     margin-bottom: 20px;
@@ -83,6 +70,18 @@ li, a, ul {
 .section-one {
     border: none;
     margin-top: 15px;
+}
+.two {
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 40px;
+    color: #e5e7eb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: fit-content;
 }
 .left-side {
     width: 500px;
@@ -153,6 +152,7 @@ li, a, ul {
     flex-direction: column;
 
     margin: 100px;
+    gap: 15px;
 
 }
 .quote {
@@ -164,7 +164,7 @@ li, a, ul {
     width: 860px;
     min-height: fit-content;
 
-    font-size: 36px;
+    font-size: 34px;
     font-style: italic;
     font-weight: 100;
 
