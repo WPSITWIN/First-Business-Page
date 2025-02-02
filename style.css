@@ -7,18 +7,22 @@ body {
 .header {
     background-color: #1f2937;
     color: #e5e7eb;
-    border-bottom: 2px dashed white;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
-    padding-left: 162.5px;
-    padding-right: 162.5px;
     margin: 0px;
 }
 h2 {
     margin: 0;
+}
+.heading-container {
+    min-width: 995px;
+    display: flex;
+
+    justify-content: center;
+    justify-content: space-between;
+
 }
 .two {
     background-color: #1f2937;
@@ -33,8 +37,9 @@ h2 {
     height: fit-content;
 }
 .logo {
-    font-size: 18px;
-    margin-left: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 18px;
 }
 
 .right-links {
