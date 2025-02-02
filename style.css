@@ -14,7 +14,6 @@ body {
     align-items: center;
 
     margin: 0px;
-
 }
 h2 {
     margin: 0;
@@ -48,8 +47,6 @@ li, a, ul {
     font-size: 22px;
 
     gap: 20px;
-
-    
     margin-right: 10px;
 }
 .inside-two {
@@ -57,9 +54,9 @@ li, a, ul {
     display: flex;
 
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 
-    max-width: 500px;
+    width: fit-content;
 }
 .bold {
     font-weight: bold;
@@ -79,6 +76,9 @@ li, a, ul {
     margin-left: 20px;
 
     background-color: white;
+}
+.left-side {
+    width: 500px;
 }
 .three {
     display: flex;
